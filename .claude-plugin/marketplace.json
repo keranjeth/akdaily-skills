@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "akdaily-skills",
+  "description": "Ali Khan Firooz's personal Claude Code skills marketplace.",
+  "owner": {
+    "name": "Ali Khan Firooz"
+  },
+  "plugins": [
+    {
+      "name": "100m-offers",
+      "displayName": "$100M Offers",
+      "description": "Build, audit, package, price, strengthen, and name offers using operational frameworks derived from Alex Hormozi's $100M Offers.",
+      "source": "./plugins/100m-offers",
+      "category": "productivity",
+      "homepage": "https://github.com/keranjeth/akdaily-skills/tree/main/plugins/100m-offers"
+    }
+  ]
+}
