@@ -8,7 +8,7 @@ A personal Claude Code marketplace for reusable AI skills.
 
 An operational offer-development skill built from the working frameworks in Alex Hormozi's *$100M Offers*. It helps Claude build, audit, package, price, strengthen, and name offers using a structured workflow rather than treating the book as a general summary.
 
-The plugin contains one skill with its own router, chapter reference notes, glossary, patterns, and cheatsheet.
+The plugin includes the main skill router plus a decision cheatsheet, glossary, routing patterns, and source/fidelity notes.
 
 ## Install in Claude Code
 
@@ -48,13 +48,12 @@ akdaily-skills/
                 ├── cheatsheet.md
                 ├── glossary.md
                 ├── patterns.md
-                ├── sources.md
-                └── chapters/
+                └── sources.md
 ```
 
-## Private repository note
+## Important: private repository
 
-This repository is currently private. Claude Code must have GitHub access to this repository for marketplace installation to work. If the machine/session cannot authenticate to this private repository, make the repository public or configure GitHub authentication before adding the marketplace.
+This repository is currently private. Claude Code must be authenticated to GitHub with access to `keranjeth/akdaily-skills` before it can add this marketplace. If Claude Code cannot access private GitHub repositories in your setup, make the repository public before installing it.
 
 ## Source note
 
